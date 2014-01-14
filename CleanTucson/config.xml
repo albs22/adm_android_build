@@ -12,5 +12,4 @@
     <access origin="'http://adresdmes.herokuapp.com" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
-    <gap:plugin name="org.apache.cordova.camera" />
 </widget>
