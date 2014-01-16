@@ -8,6 +8,7 @@
         Alex Behlen
     </author>
     <content src="index.html" />
+     <access origin="*" />
     <access origin="'http://adresdmes.herokuapp.com" />
     
     <preference name="fullscreen" value="true" />
