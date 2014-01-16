@@ -9,9 +9,17 @@
     </author>
     <content src="index.html" />
     <access origin="'http://adresdmes.herokuapp.com" />
+    
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
     <preference name="splash-screen-duration" value="3000" />
+    <preference name="phonegap-version" value="3.2.0" />
+    
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+	<feature name="http://api.phonegap.com/1.0/file"/><feature name="http://api.phonegap.com/1.0/geolocation"/>
+	<feature name="http://api.phonegap.com/1.0/media"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+		
     <gap:platform name="android" />
 
     <gap:plugin name="com.phonegap.plugins.barcodescanner" />
