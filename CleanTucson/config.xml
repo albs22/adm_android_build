@@ -11,8 +11,10 @@
     <access origin="'http://adresdmes.herokuapp.com" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
-     <gap:platform name="android" />
-    <gap:plugin name="org.apache.cordova.camera" version="0.2.3" />
+    <preference name="splash-screen-duration" value="3000" />
+    <gap:platform name="android" />
+
+    <feature name="http://api.phonegap.com/1.0/camera"/>
 	
 		
 		
