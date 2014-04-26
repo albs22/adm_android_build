@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget id="com.addressdmess" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.addressdmess" version="1.0.5" versionCode="46" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap = "http://phonegap.com/ns/1.0">
     <name>Address D Mess</name>
     <description>
         Help keep Tucson Clean by submiting messes around town.
@@ -8,12 +7,29 @@
         Alex Behlen
     </author>
     <content src="index.html" />
-    <access origin="*" />
+     <access origin="*" />
     <access origin="'http://adresdmes.herokuapp.com" />
-    <preference name="fullscreen" value="true" />
-    <preference name="webviewbounce" value="true" />'
     
-    <plugins>
-    	<plugin name="Camera" value="org.apache.cordova.CameraLauncher" />
-    </plugins>
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="phonegap-version" value="3.1.0" />
+    <preference name="android-minSdkVersion" value="8" />
+    
+    <plugin name="Camera" value="org.apache.cordova.CameraLauncher" />
+    
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+	<feature name="http://api.phonegap.com/1.0/file"/>
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	<feature name="http://api.phonegap.com/1.0/media"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+
+    <gap:platform name="android" />
+
+	<gap:plugin name="org.apache.cordova.camera" />
+	<gap:plugin name="org.apache.cordova.geolocation" />
+
+    
+
+
+
 </widget>
