@@ -12,8 +12,21 @@
     <access origin="'http://adresdmes.herokuapp.com" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />'
-    <!-- 
-    <plugins>
-    	<plugin name="Camera" value="org.apache.cordova.CameraLauncher" />
-    </plugins> -->
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="phonegap-version" value="3.1.0" />
+    <preference name="android-minSdkVersion" value="8" />
+    
+    <plugin name="Camera" value="org.apache.cordova.CameraLauncher" />
+    
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+	<feature name="http://api.phonegap.com/1.0/file"/>
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	<feature name="http://api.phonegap.com/1.0/media"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+
+    <gap:platform name="android" />
+
+	<gap:plugin name="org.apache.cordova.camera" />
+	<gap:plugin name="org.apache.cordova.geolocation" />
 </widget>
