@@ -12,8 +12,8 @@
     <access origin="'http://adresdmes.herokuapp.com" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />'
-    <!-- 
+    
     <plugins>
     	<plugin name="Camera" value="org.apache.cordova.CameraLauncher" />
-    </plugins> -->
+    </plugins>
 </widget>
