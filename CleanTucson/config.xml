@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.addressdmess" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Address D Mess</name>
+    <name>Address D Mess - Debug</name>
     <description>
         Help keep Tucson Clean by submiting messes around town.
     </description>
